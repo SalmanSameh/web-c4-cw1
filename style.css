@@ -1,0 +1,33 @@
+body{
+    background-color: #e9c46a;
+}
+button{
+    background-color: #43aa8b;
+    border-radius: 5px;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+    
+}
+.cell{
+    display: flex;
+    background-color: #293241;
+    width: 30%;
+    height: 30%;
+    border-radius: 10px;
+    box-shadow: 5px 10px;
+}
+.cell:hover{
+    background-color: #ee6c4d;
+}
